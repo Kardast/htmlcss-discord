@@ -1,0 +1,49 @@
+/* Regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* Debug */
+    background-color: gray;
+}
+
+/* Header */
+header{
+    background-color: #255ee9;
+    height: 100px;
+    width: 100%;
+}
+
+header .container_header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+/* Jumbotron */
+body .jumbo{
+    width: 100%;
+    position: relative;
+    /* Debug */
+    background-color: azure;
+}
+
+.jumbo img{
+    max-width: 100%;
+}
+
+.jumbo .container_jumbrotron{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Debug */
+    height: 400px;
+    background-color: rgba(0, 128, 0, 0.445);
+}
