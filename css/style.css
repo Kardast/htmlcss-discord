@@ -49,7 +49,7 @@ main .gray_bg{
     background-color: gray;
 }
 
-.container_bg .container_sections{
+main div .container_sections{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -69,9 +69,25 @@ main .gray_bg{
     background-color: red;
 }
 
+.container_sections .big_col_right{
+    float: left;
+    width: 40%;
+    /* debug */
+    height: 300px;
+    background-color: red;
+}
+
 .container_sections .small_col{
     float: left;
     width: 40%;
+    /* debug */
+    height: 300px;
+    background-color: yellow;
+}
+
+.container_sections .small_col_left{
+    float: left;
+    width: 60%;
     /* debug */
     height: 300px;
     background-color: yellow;
@@ -82,4 +98,22 @@ main .gray_bg{
     /* debug */
     background-color: cornflowerblue;
     height: 600px;
+}
+
+/* Footer */
+footer .darkgray_bg{
+    background-color: rgb(29, 29, 29);
+}
+
+footer .darkgray_bg .container_footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    display: table;
+    clear: both;
+        /* Debug */
+    background-color: aquamarine;
+    margin-bottom: 50px;
+    height: 394px;
 }
