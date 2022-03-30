@@ -17,8 +17,30 @@ header .container_header{
     margin-left: auto;
     margin-right: auto;
     height: 100px;
+    position: relative;
     /* Debug */
-    background-color: aquamarine;
+    background-color: rgb(70, 158, 129);
+}
+
+.container_header .discord_logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+nav .nav_actions{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav_actions li{
+    display: inline-block;
+}
+
+.nav_actions li a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Jumbotron */
