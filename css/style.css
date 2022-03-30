@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 /* Header */
 header{
     background-color: #255ee9;
@@ -18,8 +22,6 @@ header .container_header{
     margin-right: auto;
     height: 100px;
     position: relative;
-    /* Debug */
-    background-color: rgb(70, 158, 129);
 }
 
 .container_header .discord_logo{
@@ -36,11 +38,26 @@ nav .nav_actions{
 
 .nav_actions li{
     display: inline-block;
+    padding: 0 20px;   
 }
 
 .nav_actions li a{
     text-decoration: none;
     color: white;
+    font-weight: 700;
+}
+
+#access_button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 /* Jumbotron */
