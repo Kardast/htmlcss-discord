@@ -56,16 +56,14 @@ nav .nav_actions{
     text-decoration: none;
     color: black;
     background-color: white;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 10px 15px;
+    border-radius: 25px;
 }
 
 /* Jumbotron */
 body .jumbo{
     width: 100%;
     position: relative;
-    /* Debug */
-    background-color: azure;
 }
 
 .jumbo img{
@@ -75,12 +73,45 @@ body .jumbo{
 .jumbo .container_jumbrotron{
     position: absolute;
     width: 50%;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* Debug */
-    height: 400px;
-    background-color: rgba(0, 128, 0, 0.445);
+    color: white;
+    text-align: center;
+}
+
+.container_jumbrotron .jumbo_title{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.container_jumbrotron .jumbo_text{
+    font-weight: 600;
+    line-height: 30px;
+    padding: 15px 140px;
+}
+
+.container_jumbrotron .jumbo_actions li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.container_jumbrotron .jumbo_actions li a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.jumbo_actions li a span{
+    padding-right: 10px;
+}
+
+.container_jumbrotron .jumbo_actions #jumbo_right_button{
+    color: white;
+    background-color: black;
 }
 
 /* Main */
