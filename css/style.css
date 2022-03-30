@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-body{
-    /* Debug */
-    background-color: gray;
-}
-
 /* Header */
 header{
     background-color: #255ee9;
@@ -22,6 +17,7 @@ header .container_header{
     margin-left: auto;
     margin-right: auto;
     height: 100px;
+    /* Debug */
     background-color: aquamarine;
 }
 
@@ -46,4 +42,37 @@ body .jumbo{
     /* Debug */
     height: 400px;
     background-color: rgba(0, 128, 0, 0.445);
+}
+
+/* Main */
+main .gray_bg{
+    background-color: gray;
+}
+
+.container_bg .container_sections{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    display: table;
+    clear: both;
+        /* Debug */
+    background-color: aquamarine;
+    margin-bottom: 50px;
+}
+
+.container_sections .big_col{
+    float: left;
+    width: 60%;
+    /* debug */
+    height: 300px;
+    background-color: red;
+}
+
+.container_sections .small_col{
+    float: left;
+    width: 40%;
+    /* debug */
+    height: 300px;
+    background-color: yellow;
 }
