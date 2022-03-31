@@ -116,7 +116,7 @@ body .jumbo{
 
 /* Main */
 main .gray_bg{
-    background-color: gray;
+    background-color: rgb(207, 207, 207);
 }
 
 main div .container_sections{
@@ -126,49 +126,63 @@ main div .container_sections{
     content: "";
     display: table;
     clear: both;
-        /* Debug */
-    background-color: aquamarine;
     margin-bottom: 50px;
 }
 
 .container_sections .big_col{
     float: left;
     width: 60%;
-    /* debug */
-    height: 300px;
-    background-color: red;
 }
 
 .container_sections .big_col_right{
     float: left;
-    width: 40%;
-    /* debug */
-    height: 300px;
-    background-color: red;
+    width: 60%;
 }
 
 .container_sections .small_col{
     float: left;
     width: 40%;
-    /* debug */
-    height: 300px;
-    background-color: yellow;
+    padding: 50px 180px 0px;
 }
 
 .container_sections .small_col_left{
     float: left;
-    width: 60%;
-    /* debug */
-    height: 300px;
-    background-color: yellow;
+    width: 40%;
+    padding-top: 90px;
+    padding-left: 300px;
 }
 
 .unique_col{
     width: 100%;
     /* debug */
     background-color: cornflowerblue;
-    height: 600px;
 }
+
+.unique_col .top_text_row{
+    text-align: center;
+}
+
+/* Immagini main */
+.big_col img{
+    padding-left: 200px;
+}
+
+.big_col_right{
+    padding-left: 150px;
+}
+
+/* Scritte main */
+.small_col h2, .small_col_left h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.small_col p, .small_col_left p{
+    font-weight: 600;
+    line-height: 25px;
+}
+
+
 
 /* Footer */
 footer .darkgray_bg{
