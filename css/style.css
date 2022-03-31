@@ -126,7 +126,7 @@ main div .container_sections{
     content: "";
     display: table;
     clear: both;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .container_sections .big_col{
@@ -154,12 +154,11 @@ main div .container_sections{
 
 .unique_col{
     width: 100%;
-    /* debug */
-    background-color: cornflowerblue;
+    text-align: center;
 }
 
-.unique_col .top_text_row{
-    text-align: center;
+.unique_col .img_row img{
+    width: 80%;    
 }
 
 /* Immagini main */
@@ -182,6 +181,34 @@ main div .container_sections{
     line-height: 25px;
 }
 
+.top_text_row h2{
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.top_text_row p{
+    font-weight: 600;
+    line-height: 25px;
+    padding: 20px 200px 0;
+}
+
+.bottom_text_row h3{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    display: inline-block;        
+    background-size: contain;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.bottom_text_row div a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(101, 101, 255);
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
 
 
 /* Footer */
